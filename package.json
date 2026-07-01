@@ -1,0 +1,23 @@
+{
+  "name": "playwright_javascript_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codegirl141997/Playwright_JavaScript_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/codegirl141997/Playwright_JavaScript_Practice/issues"
+  },
+  "homepage": "https://github.com/codegirl141997/Playwright_JavaScript_Practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
