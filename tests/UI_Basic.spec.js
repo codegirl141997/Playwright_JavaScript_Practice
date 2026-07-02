@@ -56,7 +56,7 @@ test('Rahul_Shetty', async ({browser, page }) => {
 
 //type & Fil methods which is used to fill the info the text box
 // decleare locators
-//
+// added
 const { test, expect } = require('@playwright/test');
 test('Rahul_Shetty', async ({ browser, page }) => {
     const username = page.locator("#username");
