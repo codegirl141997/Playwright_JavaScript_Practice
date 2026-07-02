@@ -1,9 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
-test('Automation', async ({ browser, page }) =>
+test('Automation', async ({ browser, page }) => {
+    await page.goto("https://automationexercise.com/login");
 
-    {
-        await page.goto("https://automationexercise.com/login");
-        
 
-    });
+});
