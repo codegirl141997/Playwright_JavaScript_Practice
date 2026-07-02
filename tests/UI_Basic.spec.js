@@ -17,7 +17,7 @@
      await expect(page).toHaveTitle("Google");
 });*/
 
- 
+
 //2nd way we can write this 
 //const { test, expect } = require('@playwright/test');
 /*
@@ -56,18 +56,18 @@ test('Rahul_Shetty', async ({browser, page }) => {
 
 //type & Fil methods which is used to fill the info the text box
 // decleare locators
-const{test, expect} = require('@playwright/test');
-test ('Rahul_Shetty' ,async ({browser,page})=>
-{
-  const username = page.locator("#username");
-  const password = page.locator("#password");
-  const Submit_button = page.locator("#signInBtn");
+//
+const { test, expect } = require('@playwright/test');
+test('Rahul_Shetty', async ({ browser, page }) => {
+    const username = page.locator("#username");
+    const password = page.locator("#password");
+    const Submit_button = page.locator("#signInBtn");
 
-  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
-  console.log(await page.title());
-  
-  await username.type("rahulshettyacademy ");
-  await password.type("Learning@830$3mK2");
-  await Submit_button.click();
+    await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+    console.log(await page.title());
+
+    await username.type("rahulshettyacademy ");
+    await password.type("Learning@830$3mK2");
+    await Submit_button.click();
 });
 
