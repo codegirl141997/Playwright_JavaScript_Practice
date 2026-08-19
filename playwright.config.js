@@ -13,17 +13,18 @@ const config=({
     timeout: 100*8000
     
   },
-  reporter: [
-    
-    'html}',
-    //'dot',
-    //'json',
-    'list'
-  ],
+ reporter: [
+    ['html'],
+    // ['dot'],
+    // ['json'],
+    ['list']
+],
 
 
   use:{
-     browserName: 'chromium'
+    trace:'retain on failure',
+     browserName: 'chromium',
+     headless: false
   }
 });
 
