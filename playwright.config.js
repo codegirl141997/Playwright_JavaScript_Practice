@@ -13,7 +13,14 @@ const config=({
     timeout: 100*8000
     
   },
-  reporter: 'html',
+  reporter: [
+    
+    'html}',
+    //'dot',
+    //'json',
+    'list'
+  ],
+
 
   use:{
      browserName: 'chromium'
